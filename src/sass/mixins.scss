@@ -1,0 +1,12 @@
+@import './variables.scss';
+
+@mixin buttons($back-col,$text-col,$radius) {
+    background:$back-col;
+    border-radius: 7px;
+    color:$text-col;
+    border-radius: $radius;
+  }
+
+@mixin shadow($s1,$s2,$opacity,$color) {
+    box-shadow: $s1 $s2 $opacity $color;
+  } 

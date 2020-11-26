@@ -1,0 +1,4 @@
+export const GET_ALL_JOBS = 'GET_ALL_JOBS';
+export const ADD_FILTER = 'ADD_FILTER';
+export const DELETE_FILTER = 'DELETE_FILTER';
+export const CLEAR_ALL_FILTERS = 'CLEAR_ALL_FILTERS';
